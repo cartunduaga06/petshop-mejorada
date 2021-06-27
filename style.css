@@ -1,67 +1,104 @@
-.contenedor   {
-    background-color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  min-width: 320px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  background-color: black;
+  height: 20px;
+}
+.selector {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+.menu {
+  background-color: #f0a83e;
+  height: 62px;
+  padding-left: 46.57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-categorias {
+  padding-right: 20px;
+}
+.menu-categorias span {
+  padding-right: 20px;
+  color: white;
+}
+
+container {
+  background-color: #a5dfbc;
+  display: flex;
+  
+}
+
+.foto {
+  background-image: url(img/foto.png);
+
+  height: 408px;
+
+  background-repeat: no-repeat;
+  background-color: ##a5dfbc;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.letrero {
+  margin-bottom: 122px;
+  margin-right: 50px;
+  width: 300;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.letrero h1 {
+  background-color: white;
+  padding: 10px;
+  margin: 12px;
+  border-radius: 5px;
+}
+
+.letrero h2 {
+  margin: 12px;
+  color: white;
+  background-color: #f0a83e;
+
+  padding: 15px 26px;
+  border-radius: 5px;
+}
+.productos {
     display: flex;
-    justify-content: space-between;
-    
-}
-
-#uno {
-    display: inline;
-    align-items: initial;
-    margin-left: 90px;
-}
-
-#dos {
-    display: inline;
-    align-items: unset;
-    margin-right: 30px;
-}
-span {
-color: white;
-}
-
-.contenedor2  {
-    background:#F0A83E; 
-    display:flex;
-    justify-content: space-between;
     align-items: center;
-    height: 62px;
-    
-}
-
-#logo {
-    height:30px; 
-    margin-left: 60px
-}
-
-#tres{
-    
-    margin-right: 90px;
-    
-}
-#imagen {
-    background-image: url(" images/foto.png"); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-end;
-    padding: 151px;
-   
-
-    
-}
-
-#prueba {
-display: flex;
-justify-content: flex-end;
-align-items: flex-end;
-background-color: white;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: black;
-    margin: 0 0 25px;
-    overflow: hidden;
+    flex-direction: column ;
+    justify-content: center;
     padding: 20px;
-    
+}
+
+.productos h1{
+    padding: 10px;
 }
