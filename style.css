@@ -102,3 +102,18 @@ container {
 .productos h1{
     padding: 10px;
 }
+.opciones {
+  display: flex;
+  justify-content: center;
+
+}
+.opciones span {
+  padding: 10px;
+}
+.fotos-productos{
+  display: flex;
+  justify-content: center;
+}
+.fotos-productos img{
+  padding: 10px;
+}
