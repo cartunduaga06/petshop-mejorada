@@ -105,6 +105,8 @@ container {
 .opciones {
   display: flex;
   justify-content: center;
+  color: #666666;
+
 
 }
 .opciones span {
@@ -116,4 +118,155 @@ container {
 }
 .fotos-productos img{
   padding: 10px;
+}
+.caja-productos{
+  background-color: #FBFAF6;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #3C2313;
+
+}
+.caja-productos span{
+  color: #F0A83E;
+  padding: 5px;
+
+}
+.lista-contacto {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.lista-contacto h1{
+  color: #3C2313;
+  padding: 20px;
+}
+
+.form span{
+  font-size: 10px;
+  display: flex;
+  width: 340px;
+  flex-direction: column;
+  background-color: #3C2313;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  
+}
+.botton-reset {
+  background-color: #8A8787;
+  padding: 10px;
+  border-radius: 15px;
+  width: 110px;
+}
+.botton-enviar {
+  background-color: #F0A83E;
+  padding: 10px;
+  border-radius: 15px;
+  width: 110px;
+  margin: 10px;
+}
+.botton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.suscribete{
+  background-color: #F0A83E;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  height: 60px;
+  align-items: center;
+  
+}
+.suscribete-nuevo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  
+}
+.suscribete-nuevo img{
+  margin-right: 10px;
+}
+
+.correo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  background-color: white;
+  border-radius: 15px;
+  height: 40px;
+  color: #A0A0A0;
+  font-size: 9px;
+  width: 271px;
+  text-indent: 10px;
+}
+.botton-suscribete{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color:#3C2313 ;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 9px;
+  width: 70px;
+  margin-left: 5px;
+}
+.suscribirme {
+  display: flex;
+  flex-direction: row;
+}
+.datos-contacto{
+  background-color: #3C2313;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.localidad{
+  padding: 10px;
+  display: flex;
+  font-size: 20px;
+  margin-left: 70px;
+  padding-top: 20px;
+  }
+
+  .datos-contacto h2 {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .datos-contacto span{
+    color:  #8A8787;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .logo-final{
+    margin-right: 70px;
+  }
+.final{
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
